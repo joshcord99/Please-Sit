@@ -1,6 +1,6 @@
-import '../css/App.css'
+import '../css/Home.css'
 
-function App() {
+function Home() {
   return (
     <>
     <h1>Feeling Down? Feeling Up? Just Bored? Just looking for a good conversation? or Do you need some advice?</h1>
@@ -9,4 +9,4 @@ function App() {
   )
 }
 
-export default App
+export default Home

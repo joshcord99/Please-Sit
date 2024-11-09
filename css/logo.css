@@ -10,5 +10,5 @@
 .btn {
   margin: 10px; /* Ads space between the buttons */
   position: relative; /* Allows for position adjustment */
-  left: 800px; /* Moves the buttons 10px to the right */
+  left:  550px; /* Moves the buttons 10px to the right */
 }

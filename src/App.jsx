@@ -4,7 +4,7 @@ import Logo from "../pages/logo";
 
 function App() {
   return (
-    <div>
+    <div >
       <Logo />
       <main>
         <Outlet />

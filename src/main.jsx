@@ -4,6 +4,7 @@ import App from "./App";
 import Error from "../pages/Error.jsx";
 import Home from "../pages/Home.jsx";
 import CreateAccount from "../pages/CreateAccount.jsx";
+import Personal from "../pages/Personal.jsx";
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/createaccount",
         element: <CreateAccount />,
+      },
+      {
+        path: "/personal",
+        element: <Personal />,
       },
     ],
   },

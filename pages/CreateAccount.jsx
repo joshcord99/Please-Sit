@@ -8,6 +8,7 @@ const CreateAccount = () => {
     lastName: "",
     email: "",
     password: "",
+    goal: ""
   });
 
   const [errorMessage, setErrorMessage] = useState("");
@@ -116,6 +117,16 @@ const CreateAccount = () => {
           />
         </div>
 
+        <div className="form-group">
+          <label className="form-label">Goal</label>
+          <input
+            className="form-input"
+            type="text"
+            name="goal"
+            value={CreateAccountData.goal}
+            onChange={handleChange}
+          />
+        </div>
         <div className="bttn">
           <button type="submit">
             Create Account
